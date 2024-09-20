@@ -1,0 +1,126 @@
+    1  ls -l
+    2  python
+    3  python3 -m venv .venv
+    4  sudo apt install python3.10-venv
+    5  apt install python3.10-venv
+    6  sudo apt update
+    7  sudo apt install python3.10-venv
+    8  python3 -m venv .venv
+    9  source .venv/bin/activate
+   10  apt install python3.10-venv
+   11  pip install --upgrade pip
+   12  python -m pip install --upgrade pip
+   13  python --version
+   14  pip install tensorflow-cpu==2.10
+   15  pip install tensorflow-directml-plugin
+   16  ls /usr/lib/wsl/lib/nvidia-smi
+   17  nvidia-smi
+   18  nvcc --version
+   19  wget https://developer.download.nvidia.com/compute/cuda/12.6.1/local_installers/cuda_12.6.1_560.35.03_linux.run
+   20  sudo sh cuda_12.6.1_560.35.03_linux.run
+   21  gcc
+   22  sudo apt install gcc
+   23  sudo sh cuda_12.6.1_560.35.03_linux.run
+   24  echo $PATH
+   25  nvcc --version
+   26  ls /usr/local/cuda-12.6/bin
+   27  ls /usr/local/cuda-12.6/bin/nvcc --version
+   28  which python
+   29  which python3
+   30  exit
+   31  ls -l
+   32  cd
+   33  pwd
+   34  mkdir rahulish75-git
+   35  git --version
+   36  gits status
+   37  git status
+   38  cd rahulish75-git/
+   39  git config --global user.name "Rahul Gupta" 
+   40  git config --global user.email "rahulish75@gmail.com"
+   41  git config user.name
+   42  git config user.email
+   43  pwd
+   44  ls -al
+   45  mkdir repob
+   46  cd repob/
+   47  git init
+   48  ls -al
+   49  git status
+   50  vi textfile.txt
+   51  git status
+   52  git add textfile.txt 
+   53  mkdir dirA
+   54  cd dirA
+   55  cp ../textfile.txt ./textAtxt
+   56  cp ../textfile.txt ./textA.txt
+   57  ls
+   58  mv textAtxt textA.txt
+   59  cd ..
+   60  git status
+   61  git add dirA
+   62  git status
+   63  ls dirA
+   64  ls
+   65  cp textfile.txt dirA/textB.txt
+   66  git status
+   67  git add dirA/.
+   68  git status
+   69  vi textfile.txt
+   70  git status
+   71  git status -s
+   72  git status uno
+   73  git status -uno
+   74  git status -s
+   75  copy textfile.txt dirA/textC.txt
+   76  cp textfile.txt dirA/textC.txt
+   77* 
+   78  git commit
+   79  git log
+   80  git log --online
+   81  git log --oneline
+   82  pwd
+   83  cd ..
+   84  git clone https://github.com/rahulish75/repoa.git
+   85  cd repoa
+   86  ls -l
+   87  mkdir dirC
+   88  cp textfile.txt dirC
+   89  git status -s
+   90  git add .
+   91  git status -s
+   92  git commit -m "adding from the wsl commandline 1 dir and 1 file"
+   93  git status
+   94  git log 
+   95  git log --online
+   96  git log --oneline
+   97  git remote --verbose
+   98  cd ../repob
+   99  git remote add origin https://github.com/rahulish75/repob.git
+  100  git remote -v
+  101  git status
+  102  git status -s
+  103  git log
+  104  git remote -v
+  105  git push -u origin master
+  106  ssh-keygen -t rsa -b 4096 -C "rahulish75@gmail.com"
+  107  ls ~/.ssh
+  108  eval "$(ssh-agent -s)"
+  109* 
+  110  vi ~/.ssh/id_rsa.pub
+  111  git push -u origin master
+  112  git remote set-url origin https://github.com/rahulish75/repob.git
+  113  git push -u origin master
+  114  git remote set-url origin git@github.com:rahulish75/repob.git
+  115  git push -u origin master
+  116  git log
+  117  git log -oneline
+  118  git log --oneline
+  119  git status -s
+  120  git add .
+  121  git status -s
+  122  git commit -m "addind dirAtextC.txt and modifying textfile.txt"
+  123  git log -oneline
+  124  git log --oneline
+  125  git push 
+  126  history > gitlearn.txt
